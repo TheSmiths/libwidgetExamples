@@ -1,15 +1,14 @@
-".container": {
-	backgroundColor:"white"
-}
+"#index": {
+    backgroundColor: "#fff"
+},
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-}
+"#button1": {
+    top: 100,
+    title: "AWESOME",
+    type: "cancel"
+},
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+"#button2": {
+    top: 20,
+    type: "ThisTypeDoesntExist"
 }
