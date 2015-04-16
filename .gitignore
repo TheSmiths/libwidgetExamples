@@ -9,6 +9,7 @@ tmp
 .project
 .settings
 Thumbs.db
+docs/
 
 ### Vim ###
 [._]*.s[a-w][a-z]
@@ -82,4 +83,6 @@ gen-external-apklibs
 # Build folder and log file
 build/
 build.log
+*.jmk
+
 
