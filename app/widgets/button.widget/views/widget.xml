@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="outer">
+      <View id="border"> 
+            <View id="inner">
+                <Label id="label" text="myButton" />
+            </View>
+        </View>
+    </View>
+</Alloy>

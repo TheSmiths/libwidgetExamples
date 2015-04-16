@@ -1,0 +1,26 @@
+"#outer": {
+    backgroundColor: "#1DB7FF",
+    height: 40,
+    width: 200
+},
+
+"#border": {
+    backgroundColor: "#FFFFFF",
+    opacity: 0.85,
+    height: 38, 
+    width: 198
+},
+
+"#inner": {
+    backgroundColor: "#1DB7FF",
+    height: 32,
+    width: 192
+},
+
+"#label": {
+    color: "#FFFFFF",
+    font: {
+        fontFamily: "Helvetica Neue",
+        fontSize: 16
+    }
+}
