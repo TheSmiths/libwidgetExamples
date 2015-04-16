@@ -1,0 +1,3 @@
+[submodule "app/lib/libwidget"]
+	path = app/lib/libwidget
+	url = https://github.com/KtorZ/libwidget.git
