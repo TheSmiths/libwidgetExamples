@@ -1,9 +1,9 @@
 # LibWidget Examples
-Quick examples of the library [libwidget](https://github.com/KtorZ/libwidget). 
+Quick examples of the library [libwidget](https://github.com/TheSmiths/libwidget). 
 
 ## Button Widget
 See the source code of
-[button.widget](https://github.com/KtorZ/libwidgetExamples/tree/master/app/widgets/button.widget)
+[button.widget](https://github.com/TheSmiths/libwidgetExamples/tree/master/app/widgets/button.widget)
 
 In button.widget's controller : 
 ```javascript
