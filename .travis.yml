@@ -1,0 +1,12 @@
+language: objective-c 
+env:
+    - TI_SDK=3.5.1.GA ANDROID_VERSION=21 IOS_VERSION=8.1 
+before_install:
+    - export TI_OPTS="--build-only --no-progress-bars --no-prompt --no-banner --log-level info" 
+    - npm install -g titanium alloy
+    - mkdir -p $HOME/.titanium
+    - cp auth_session.json $HOME/.titanium/auth_session.json
+    - titanium sdk install "$TI_SDK" $TI_OPTS
+script: 
+    - cd app
+    - titanium build $TI_OPTS -p ios --ios-version $IOS_VERSION

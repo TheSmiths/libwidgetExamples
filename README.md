@@ -1,4 +1,7 @@
 # LibWidget Examples
+![travis status](https://travis-ci.org/TheSmiths/libwidgetExamples.svg?branch=master)
+[![License](http://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://choosealicense.com/licenses/apache-2.0/)
+
 Quick examples of the library [libwidget](https://github.com/TheSmiths/libwidget). 
 
 ## Button Widget
