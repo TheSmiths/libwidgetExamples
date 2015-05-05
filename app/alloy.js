@@ -9,4 +9,4 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
-require("libwidget/libWidget").init();
+require("libwidget/index").init();

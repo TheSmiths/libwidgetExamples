@@ -1,4 +1,4 @@
-var widgetBuilder = require("libwidget/libWidget").newBuilder(this);
+var widgetBuilder = require("libwidget/index").newBuilder(this);
 
 _.extend(this, {
     construct: function (config) {
