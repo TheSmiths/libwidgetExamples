@@ -1,13 +1,14 @@
 {
-    "global": {},
+    "global": {
+        "theme": "default"
+    },
     "env:development": {},
     "env:test": {},
     "env:production": {},
     "os:android": {},
-    "os:blackberry": {},
     "os:ios": {},
-    "os:mobileweb": {},
     "dependencies": {
-        "button.widget": "1.0"
+        "button.widget": "1.0",
+        "listitem.widget": "1.0"
     }
 }
