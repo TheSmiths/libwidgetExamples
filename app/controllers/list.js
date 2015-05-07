@@ -24,7 +24,7 @@ function doOpen(e) {
         $[id].setTitle(data.title);
         $[id].setDescription(data.description);
         $[id].setPrice("€" + data.price);
-        $[id].setPicture("http://lorempixel.com/g/"+ width + "/" + height);
+        $[id].setPicture("http://lorempixel.com/g/"+ width + "/" + height + "/?" + Math.random());
     });
 }
 $.list.addEventListener("open", doOpen);
