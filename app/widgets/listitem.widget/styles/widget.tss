@@ -1,0 +1,82 @@
+"#item": {
+    height: Ti.UI.SIZE,
+    width: Ti.UI.FILL,
+    layout: 'vertical'
+},
+".wrapper": {
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    backgroundColor: 'transparent'
+},
+
+/* PICTURE */
+".pictureWrap": {
+    width: Ti.UI.FILL,
+}
+"#picture": {
+    width: Ti.UI.FILL,
+    height: 175,
+    clipsToBounds: true,
+    zIndex: 1
+}
+"#pointer": {
+    width: 20,
+    height: 20,
+    bottom : -10,
+    zIndex: 2
+}
+
+"#button": {
+    width: Ti.UI.FILL,
+    height: 35,
+    zIndex: 3
+}
+
+/* LISTING */
+".listingWrap": {
+    width: Ti.UI.FILL,
+    top:5, bottom: 5
+},
+".textWrap": {
+    width: Ti.UI.FILL,
+    left: 5, right: '25%'
+},
+"#title": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    top:1, bottom: 1,
+    font: {
+        fontSize: 18,
+        fontWeight: "bold"
+    },
+    textAlign: 'left'
+}
+"#description": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    top:20, bottom: 1,
+    font: {
+        fontSize: 14
+    },
+    textAlign: 'left'
+}
+".priceWrap": {
+    width: '25%',
+    right: 0
+}
+"#price": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    top: 5, bottom: 5,
+    left: 5, right: 5,
+    font: {
+        fontSize: 25,
+        fontWeight: "bold"
+    },
+    textAlign: 'center'
+}
+/* FOOTER */
+"#footer": {
+    width: Ti.UI.FILL,
+    height: 1
+}

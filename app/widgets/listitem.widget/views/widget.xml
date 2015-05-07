@@ -1,0 +1,23 @@
+<Alloy>
+    <View id="item">
+        <!-- PICTURE -->
+        <View class="pictureWrap wrapper">
+            <ImageView id="picture" />
+            <View id="pointer" />
+        </View>
+        <!-- BUTTON -->
+        <Button id="button" />
+        <!-- BODY -->
+        <View class="listingWrap wrapper">
+            <View class="textWrap wrapper">
+                <Label id="title" />
+                <Label id="description" />
+            </View>
+            <View class="priceWrap wrapper">
+                <Label id="price" />
+            </View>
+        </View>
+        <!-- FOOTER -->
+        <View id="footer" />
+    </View>
+</Alloy>
