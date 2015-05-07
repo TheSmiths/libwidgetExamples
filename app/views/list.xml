@@ -1,0 +1,9 @@
+<Alloy>
+    <Window id="list" class="defaultWindow">
+        <ScrollView id="container">
+            <Widget src="listitem.widget" id="listitem1" class="defaultListItem listitem" />
+            <Widget src="listitem.widget" id="listitem2" class="defaultListItem listitem" />
+            <Widget src="listitem.widget" id="listitem3" class="defaultListItem listitem" />
+        </ScrollView>
+    </Window>
+</Alloy>

@@ -1,6 +1,10 @@
 <Alloy>
-    <Window id="index">
-        <Widget src="button.widget" id="button1"/>
-        <Widget src="button.widget" id="button2"/>
-    </Window>
+    <TabGroup>
+        <Tab id="buttons" activeTab="true">
+            <Require src="buttons" />
+        </Tab>
+        <Tab id="list">
+            <Require src="list" />
+        </Tab>
+    </TabGroup>
 </Alloy>

@@ -1,14 +1,9 @@
-"#index": {
+"#TabGroup": {
     backgroundColor: "#fff"
 },
-
-"#button1": {
-    top: 100,
-    title: "AWESOME",
-    type: "cancel"
+"#buttons": {
+    title: "Buttons"
 },
-
-"#button2": {
-    top: 20,
-    type: "ThisTypeDoesntExist"
+"#list": {
+    title: "List"
 }

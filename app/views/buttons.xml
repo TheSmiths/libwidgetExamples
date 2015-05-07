@@ -1,0 +1,9 @@
+<Alloy>
+    <Window id="buttons" class="defaultWindow">
+        <View id="container">
+            <Widget src="button.widget" id="button1" class="button" />
+            <Widget src="button.widget" id="button2" class="button" />
+            <Widget src="button.widget" id="button3" class="button" />
+        </View>
+    </Window>
+</Alloy>

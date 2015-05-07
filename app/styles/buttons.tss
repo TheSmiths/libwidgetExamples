@@ -1,0 +1,27 @@
+"#buttons": {
+    title: "Buttons"
+}
+
+".button": {
+    bottom: 20
+}
+
+"#container": {
+    height: Ti.UI.SIZE,
+    layout: "vertical"
+}
+
+"#button1": {
+    title: "Primary",
+    type: "primary"
+},
+
+"#button2": {
+    title: "Cancel",
+    type: "cancel"
+},
+
+"#button3": {
+    title: "Default",
+    type: "ThisTypeDoesntExist"
+}

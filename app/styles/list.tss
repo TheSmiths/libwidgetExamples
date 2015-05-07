@@ -1,0 +1,15 @@
+
+"#list": {
+    title: "List item"
+}
+
+"#container": {
+    layout: "vertical",
+    width: Ti.UI.FILL
+}
+
+".listitem": {
+    top: 5,
+    bottom: 5,
+    button: "BUY NOW"
+}
