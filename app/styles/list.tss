@@ -15,3 +15,16 @@
     bottom: 5,
     button: "BUY NOW"
 }
+/* Different styling as examples */
+"#listitem2": {
+    titleColor: Alloy.CFG.color.nephritis,
+    arrowColor: Alloy.CFG.color.emerald,
+    buttonColor: Alloy.CFG.color.emerald,
+    separatorColor: Alloy.CFG.color.emerald
+}
+"#listitem3": {
+    titleColor: Alloy.CFG.color.carrot,
+    arrowColor: Alloy.CFG.color.pumpkin,
+    buttonColor: Alloy.CFG.color.pumpkin,
+    separatorColor: Alloy.CFG.color.pumpkin
+}

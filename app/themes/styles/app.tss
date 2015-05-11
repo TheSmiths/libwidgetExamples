@@ -1,0 +1,18 @@
+/* Global styling
+ * Global styles should be named [themeName][StyleName]
+ */
+
+".defaultWindow": {
+    backgroundColor: Alloy.CFG.color.clouds
+}
+
+".defaultListItem": {
+    color: Alloy.CFG.color.black,
+    backgroundColor: Alloy.CFG.color.clouds,
+    fontFamily: Alloy.CFG.font.family,
+    arrowColor: Alloy.CFG.color.midnight,
+    buttonColor: Alloy.CFG.color.midnight,
+    buttonTextColor: Alloy.CFG.color.white,
+    titleColor: Alloy.CFG.color.asphalt,
+    separatorColor: Alloy.CFG.color.midnight
+}
